@@ -52,3 +52,13 @@
 ```
 
     
+
+---
+
+![](./4-productive-time.svg)
+
+```
+![](https://raw.githubusercontent.com/ningenMe/ningenMe/main/profile-summary-card-output/apprentice/4-productive-time.svg)
+```
+
+    
