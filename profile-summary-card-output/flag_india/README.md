@@ -32,13 +32,3 @@
 ```
 
     
-
----
-
-![](./4-productive-time.svg)
-
-```
-![](https://raw.githubusercontent.com/ningenMe/ningenMe/main/profile-summary-card-output/flag_india/4-productive-time.svg)
-```
-
-    
