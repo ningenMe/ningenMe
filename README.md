@@ -1,6 +1,6 @@
 # ningenMe
 
-![](https://skillicons.dev/icons?i=java,cpp,rust,go,js,bash,git)
+![](https://skillicons.dev/icons?i=java,cpp,rust,go,kotlin,ts)
 
 ### Competitive Programming
 [![AtCoder](https://img.shields.io/endpoint?url=https%3A%2F%2Fatcoder-badges.vercel.app%2Fapi%2Fatcoder%2Fjson%2FningenMe)](https://atcoder.jp/users/ningenMe)
