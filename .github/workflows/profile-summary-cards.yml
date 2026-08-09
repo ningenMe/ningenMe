@@ -12,9 +12,19 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+
+      - name: List archived repos
+        id: archived
+        env:
+          GH_TOKEN: ${{ secrets.NINGENME_GITHUB_TOKEN }}
+        run: |
+          list=$(gh api user/repos --paginate -q '.[] | select(.archived==true) | .name' | paste -sd, -)
+          echo "list=$list" >> "$GITHUB_OUTPUT"
+
       - uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.NINGENME_GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
           THEME: solarized
+          EXCLUDE_REPOS: ${{ steps.archived.outputs.list }}
